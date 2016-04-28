@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="info.ruebenburrowsdavies.pricefindertwo.contact"
+    tools:showIn="@layout/activity_contact">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvc1"
+            android:layout_marginBottom="20dp"
+            app:cardUseCompatPadding="true"
+            android:layout_below="@+id/cvc4">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/watchItem"
+                    android:layout_toRightOf="@+id/imageView2"
+                    android:layout_marginLeft="50dp"
+                    android:textSize="25sp"
+                    android:text="Google +"
+                    android:layout_centerVertical="true"
+                    />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageView2"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/email29"/>
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvc2"
+            android:layout_marginBottom="20dp"
+            app:cardUseCompatPadding="true"
+            android:layout_below="@+id/cvc1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/saveState"
+                    android:layout_toRightOf="@+id/imageView3"
+                    android:layout_alignParentTop="true"
+                    android:textSize="25sp"
+                    android:text="Email"
+                    android:layout_marginLeft="50dp"
+                    android:layout_centerVertical="true"
+                    />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageView3"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/logo106"/>
+
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cvc3"
+            android:layout_marginBottom="20dp"
+            app:cardUseCompatPadding="true"
+            android:layout_below="@+id/cvc2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/websiteContact"
+                    android:layout_alignParentTop="true"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="50dp"
+                    android:text="Website"
+                    android:layout_toRightOf="@+id/imageView4"
+                    android:layout_centerVertical="true"
+                    />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageView4"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/web58"/>
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cvc4"
+        android:layout_marginBottom="20dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/contactInfo"
+                android:layout_alignParentTop="true"
+                android:textSize="25sp"
+                android:text="Feel free to contact me through any of the methods below."
+                android:layout_centerVertical="true"
+                />
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+</RelativeLayout>
